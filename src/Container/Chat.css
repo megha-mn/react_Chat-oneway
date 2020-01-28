@@ -1,0 +1,81 @@
+.boxes{
+	position: absolute;
+	bottom: 0;
+	display: flex;
+}
+
+.chatBox-wrapper{
+	position: relative;
+	width: 250px;
+	border: 1px solid #bbbdbd;
+	margin-left: 20px;
+}
+
+.chatBox {
+  height: 200px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+.heading {
+	color: #fff;
+	border: 1px solid #cac9c9;
+	margin: 0;
+	background: #34a79c;
+	padding: 8px;
+}
+
+.listOfNames {
+  width: 20%;
+  border: 1px solid #cac9c9;
+  padding: 10px;
+  font-weight: bold;
+}
+
+::-webkit-scrollbar {
+	width: 5px;
+	height: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+.showChat {
+	background: #235a55;
+	padding: 5px;
+	color: #e0dede;
+	margin: 10px 10px 10px -25px;
+	display: table;
+	border-radius: 48px;
+	font-size: 14px;
+	word-break: break-all;
+}
+
+.profileImage,.cancelImage{
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+}
+
+.cancelImage{
+	float: right;
+}
+
+.inputField{
+	height: 40px;
+    outline: none;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 40px;
+    margin: 0px 0.5rem 0px 0px;
+    width: 100%;
+    background: rgb(222, 223, 237);
+    font-size: 14px;
+    font-style: italic;
+    box-sizing: border-box;
+}
